@@ -17,4 +17,5 @@
 *12.AI_result_Tab显示AI_function_tab中AI项目运行过程及结果，布局为左右2部分——result_left、result_right。其中result_left宽度为result_right的三分之一。result_left为一个列表控件，显示内容为2列，第一列内容为AI_function_tab中树形控件的中选择项目的名称，第二列为该项目的运行时间。result_right为上下布局，主要分2部分——AI_progress、AI_result。AI_progress主要显示AI_function_tab中树形结构中的项目运行时的过程监控信息。AI_result为富文本控件，显示运行后的结果。
 *13.设置Tab主要显示修改密码相关的内容。
 *14.当点击左侧患者列表信息后，右侧的基本信息和AI_result均会发生更新。
-*15.AI_function_tab中树形控件显示的内容为一个由列表型的数据（func_list)组成的字典型据(func_group)。树形控件显示的内容为key的内容。func_list数据，是一个工作流格式的数据，是一个有顺序的数据结构，其中包含的数据是字典格式的数据，该字典包含3个key：AI运行过程名、AI运行过程备注、AI运行的模拟延迟时间。当在
+*15.AI_function_tab中树形控件显示的内容为一个由列表型的数据（func_list)组成的字典型据(func_group)。树形控件显示的内容为key的内容。func_list数据，是一个工作流格式的数据，是一个有顺序的数据结构组成的列表，其中包含的数据是字典格式的数据，该字典包含3个key：AI运行过程名、AI运行过程备注、AI运行的模拟延迟时间。当在AI_function_tab中点击运行按钮后，在AI_function_tab中的AI_progress中可以看到选中的func_list数据运行工作流的动画。
+*16.要求设计的界面具有现代性，动画显示美观、大气。
